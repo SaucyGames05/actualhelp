@@ -1,0 +1,31 @@
+		body {
+			background-color: #444a52;
+		}
+		.header {
+			font-family: 'Source Code Pro', monospace;
+			color: white;
+			font-size: 20px;
+			position: fixed;
+			top: -25px;
+			left: 5px;
+		}
+		.blink {
+			font-family: 'Source Code Pro', monospace;
+			color: white;
+			font-size: 25px;
+			position: fixed;
+			top: -26px;
+			left: 250px; 
+			animation: blinker 0.45s linear infinite;
+		}
+		 @keyframes blinker {  
+            69% { opacity: 0; }
+        }
+        .helpcom {
+        	font-family: 'Source Code Pro', monospace;
+			color: white;
+			font-size: 20px;
+			position: fixed;
+			top: 32px;
+			left: 5px; 
+        }
